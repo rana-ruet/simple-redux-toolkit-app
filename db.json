@@ -1,5 +1,26 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "rana"
+    },
+    {
+      "id": 2,
+      "name": "tanha"
+    },
+    {
+      "name": "Gwen Hickle IV",
+      "id": 3
+    },
+    {
+      "name": "Elvira Hickle",
+      "id": 4
+    },
+    {
+      "name": "Miss Regina Nolan",
+      "id": 5
+    }
+  ],
   "albums": [],
   "photos": []
 }
