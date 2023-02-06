@@ -5,10 +5,35 @@
       "name": "tanha"
     },
     {
-      "name": "Alice Feest",
+      "name": "Ebony Morissette",
       "id": 3
+    },
+    {
+      "name": "Nettie Schumm",
+      "id": 4
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Hiking Trip",
+      "userId": 2
+    },
+    {
+      "userId": 2,
+      "title": "Awesome Steel Bacon",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "title": "Awesome Soft Soap",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "title": "Rustic Metal Salad",
+      "id": 12
+    }
+  ],
   "photos": []
 }
