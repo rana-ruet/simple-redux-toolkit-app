@@ -38,7 +38,7 @@ const UserList = () => {
   return (
     <div>
       <div className='flex flex-row justify-between items-center m-3'>
-        <h1 className='m-2 text-xl'>List of Users</h1>
+        <h1 className='m-2 font-bold text-xl'>List of Users</h1>
         <Button loading={isCreatingUser} onClick={handleUserAdd}>
           Add user
         </Button>

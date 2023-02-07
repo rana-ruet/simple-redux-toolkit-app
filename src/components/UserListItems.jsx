@@ -4,6 +4,7 @@ import { deleteUser } from '../store';
 import { useThunk } from '../hooks/useThunk';
 import ExpandablePanel from './ExpandablePanel';
 import AlbumList from './AlbumList';
+import { TiUserDelete } from 'react-icons/ti';
 
 const UserListItems = ({ user }) => {
   const [doRemoveUser, isLoading, error] = useThunk(deleteUser);
@@ -15,7 +16,7 @@ const UserListItems = ({ user }) => {
   const header = (
     <>
       <Button className='mr-3' loading={isLoading} onClick={handleClick}>
-        <GoTrashcan />
+        <TiUserDelete />
       </Button>
       {error && 'Error deleting user..'}
       {user.name}
